@@ -1,0 +1,192 @@
+/****** Base Styles *******/
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Lora', serif;
+}
+
+#about, #work, #contact {
+	height: 600px;
+	background-color: cyan;
+}
+
+/***** GRID *****/
+
+.full-width {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.half-width {
+	width: 600px;
+	float: left;
+}
+
+.third-width {
+	width: 400px;
+	float: left;
+}
+
+/**** HEADER ****/
+
+header {
+	height: 800px;
+	background: url("../img/hero.png");
+	background-size: cover;
+}
+
+header h1 {
+	padding: 50px 0;
+	font-family: 'Lora', serif;
+	font-size: 30px;
+	color: #bbc085;
+}
+
+nav {
+	float: right;
+	padding: 75px 40px;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: 'Source sans pro', sans-serif;
+	font-size: 18px;
+	color: #828282;
+	padding-left: 80px;
+}
+
+header h2 {
+	width: 1000px;
+	/*not sure about this here*/
+	clear: both;
+	font-family: 'Lora', serif;
+	font-size: 72px;
+	color: #9b9b9b;
+}
+
+header h2 span {
+	color: #2b2b2b;
+}
+
+
+/**** ABOUT ****/
+
+#about .full-width {
+	padding: 80px 0;
+}
+
+#about h2 {
+	font-family: 'Lora', serif ;
+	font-size: 36px;
+}
+
+#about p {
+	font-size: 21px;
+	color: #7f7f7f;
+	line-height: 42px;
+	padding-right: 50px; 
+}
+
+/**** WORK ****/
+
+#work {
+	background: #f9ceb7;
+	text-align: center;
+}
+
+#work .full-width {
+	padding: 115px 0;
+}
+
+#work img {
+	padding-bottom: 30px;
+}
+
+#work h3 {
+	font-size: 23px;
+	width: 200px;
+	margin: 0 auto;
+}
+
+#work p {
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	line-height: 30px;
+	color: #2b2b2b;
+	padding: 0 35px;
+}
+
+/**** CONTACT ****/
+
+#contact {
+	background: #ebebeb;
+}
+
+#contact .full-width {
+	padding: 110px 0;
+}
+
+#contact-img {
+	border: 12px solid #ffffff;
+}
+
+#contact h2, #email-header, #socialmedia-header, #contact ul {
+	padding-left: 115px;
+}
+
+#envelope {
+	padding: 0 10px 0 115px;
+}
+
+#contact h2 {
+	font-family: 'Lora';
+	font-size: 36px;
+}
+
+#email-header {
+	font-size: 32px;
+	font-family: 'Source Sans Pro';
+	margin: -30px 0 5px 0;
+}
+
+#socialmedia-header {
+	font-family: 'Source Sans Pro';
+	font-size: 29px;
+	margin: 40px 0 0 0;
+}
+
+#contact a{
+	text-decoration: none;
+	color: #c49075;
+	font-family: 'Source Sans Pro';
+	font-weight: bold;
+	font-size: 28px;
+}
+
+#contact ul {
+	list-style: none;
+}
+
+#contact ul li {
+	display: inline-block;
+}
+
+#contact ul img {
+	font-size: 32px;
+	padding-right: 48px;
+}
+
+
+
+
+
+
+
+
+
+
